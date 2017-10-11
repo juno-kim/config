@@ -9,3 +9,8 @@ alias ps='ps auxwww'
 
 # git auto completion
 source ~/.git-completion.bash
+
+# hack: for directory coloring
+export LS_OPTIONS='--color=auto'
+eval "`dircolors`"
+alias ls='ls $LS_OPTIONS'
