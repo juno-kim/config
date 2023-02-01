@@ -1,0 +1,12 @@
+shell -${SHELL}
+caption always "%{= kY}%-w%{= Yk}%n %t%{-}%+w %-= %LD %d %LM – %C"
+defscrollback 1024
+startup_message off
+autodetach on
+defnonblock on
+hardstatus on
+hardstatus alwayslastline
+
+bind ' ' windowlist -b
+
+C-a A
